@@ -137,11 +137,11 @@ a:visited {
   a:hover {
     color: white;
     background-color: none;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   a:active {
     color: white;
     background-color: none;
-    text-decoration: none;
+    text-decoration: underline;
   }

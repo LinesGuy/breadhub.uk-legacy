@@ -1,0 +1,12 @@
+i'm lines
+i do stuff and it sometimes works
+
+LinesGuy#9260
+LinesGuy (github)
+FBot
+Gulag
+Minecraft
+
+> Main - Python, C#, Applesoft BASIC
+> Libraries/frameworks - Discord.py, Pygame, Monogame
+> Learning - HTML + CSS, JS + Node.js, React
