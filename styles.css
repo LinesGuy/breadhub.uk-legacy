@@ -9,21 +9,35 @@
     font-display: swap;
 }
 
+.icon{
+    font-family: pixelmix;
+    color:white;
+    width:100px;
+    margin:40px 0px 0px 30px;
+    text-align: center;
+}
+
+body {
+    background-color: #008080;
+}
+
 button:focus{
     outline:none;
 }
+
 .box{
-    width:292px;
+    width:400px;
     background:#C0C0C0;
     border-width:1px;
     border-color:#FFFFFF #808080 #808080 #FFFFFF;
     border-style:solid;
     position:absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform: translate(-50%,-50%);
     padding:1px;
 }
+
 div.title{
     height:18px;
     width:100%;
@@ -64,9 +78,10 @@ div.body{
     width:calc(100% - 26px);
     display:inline-block;
 }
-div.body p{
+div.body h1{
+    font-size:30px;
     font-family:"MS Sans Serif";
-    font-size:11px;
+    font-weight:normal;
 }
 div.body button{
     font-family:"MS Sans Serif";
@@ -81,6 +96,26 @@ div.body button{
     display:block;
     position:relative;
     bottom:0px;
+}
+
+.info {
+    background:#FDFDEA;
+    font-size:24px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#808080 #FFFFFF #FFFFFF #808080;
+    margin:10px 0px 0px 0px;
+    padding:20px 80px;
+}
+
+.info h2{
+    font-weight:normal;
+    font-size:20px
+}
+
+.info h3{
+    font-weight:normal;
+    font-size:15px
 }
 
 a:link {
